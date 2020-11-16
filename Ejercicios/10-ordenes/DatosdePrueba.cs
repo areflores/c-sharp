@@ -176,7 +176,7 @@ public class DatosdePrueba
 
         foreach (var orden in ListaOrdenes)
         {
-            Console.WriteLine(orden.Codigo + " | " + orden.Subtotal + " | " + orden.Impuesto + " | " + orden.Fecha + " | " + orden.Total);
+            Console.WriteLine(orden.Codigo + " | " + orden.Fecha + " | " + orden.Subtotal + " | " + orden.Impuesto + " | " + orden.Total);
             Console.WriteLine(orden.Cliente.Nombre + " | " + orden.Vendedor.Nombre);
             
             foreach (var detalle in orden.ListaOrdenDetalle)
